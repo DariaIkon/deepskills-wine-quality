@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Jost-ExtraLight";
+  src: url(./Jost-ExtraLight.ttf);
+}
+body {
+  margin: 0;
+}
+/* 
+HEADER
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+}
+
+
+/* MAIN */
+
+.main__container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 230px);
+  left: calc(50% - 300px);
+}
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main__link {
+  display: block;
+  margin-right: 30px;
+  /* text-decoration: none; */
+  color: black;
+  font-size: 34px;
+  font-family: "Jost-ExtraLight";
+}
+.main__img {
+  display: block;
+  width: 328px;
+  height: 278px;
+}
